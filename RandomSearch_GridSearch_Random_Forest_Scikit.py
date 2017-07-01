@@ -60,7 +60,7 @@ def main():
     total_df_test_y.shape
 
     random_search_param(total_df_train_x, total_df_train_y, total_df_test_x, total_df_test_y)
-    grid_search_params(total_df_train_x, total_df_train_y, total_df_test_x, total_df_test_y)
+    grid_search_param(total_df_train_x, total_df_train_y, total_df_test_x, total_df_test_y)
 
 
 if __name__ == "__main__":
